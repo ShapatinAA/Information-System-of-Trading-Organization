@@ -1,0 +1,85 @@
+body {
+  background-color: #282c34;
+  color: white;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.organization {
+  background-color: #282c34;
+  padding: 10px;
+  border-bottom: 2px solid #D10000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.headerInfo h3 {
+  margin-left: 10px;
+  font-size: 24px;
+}
+
+.table-container {
+  margin-top: 20px;
+  background-color: #282c34;
+}
+
+.pagination {
+  justify-content: center;
+}
+
+.page-item .page-link {
+  background-color: #282c34;
+  border: 1px solid #D10000;
+  color: white;
+}
+
+.page-item .page-link:hover {
+  background-color: #D10000;
+  border: 1px solid #D10000;
+  color: white;
+}
+
+.page-item.disabled .page-link {
+  background-color: #333;
+  border-color: #444;
+  color: #777;
+}
+
+.btn-dark {
+  background-color: #D10000;
+  border-color: #D10000;
+}
+
+.pagination-block {
+  background-color: #333;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.pagination-block .page-link {
+  background-color: #282c34;
+  border: 1px solid #D10000;
+  color: white;
+}
+
+.pagination-block .page-link:hover {
+  background-color: #D10000;
+  border: 1px solid #D10000;
+  color: white;
+}
+
+.pagination-block .page-item.disabled .page-link {
+  background-color: #333;
+  border-color: #444;
+  color: #777;
+}

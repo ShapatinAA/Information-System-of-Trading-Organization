@@ -1,0 +1,25 @@
+.profitability-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form-group, .btn, .table {
+    margin-bottom: 20px;
+}
+
+.table {
+    margin-top: 20px;
+}
+
+.container-fluid {
+    padding-bottom: 20px; /* Ensure there's no white padding at the bottom */
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+}
